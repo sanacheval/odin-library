@@ -22,11 +22,8 @@ p {
     border-radius:20px;
     margin: 10px;
     background-color: rgb(240, 201, 201);
-    display:grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-}
-#addButton{
-  grid-column-start: 3;  
+    display:flex;
+    align-items: center;
 }
 input{
     background-color: rgb(245, 228, 228);
