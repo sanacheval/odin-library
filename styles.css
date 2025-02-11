@@ -1,0 +1,45 @@
+#books{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+p {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding:10px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.book{
+    border:1px solid rgb(117, 48, 48);
+    border-radius:20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 10px;
+    background-color: rgb(240, 201, 201);
+}
+#addBook {
+    border:1px solid rgb(117, 48, 48);
+    border-radius:20px;
+    margin: 10px;
+    background-color: rgb(240, 201, 201);
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+#addButton{
+  grid-column-start: 3;  
+}
+input{
+    background-color: rgb(245, 228, 228);
+}
+button{
+    padding: 10px 20px;
+    border-radius:20px;
+    background-color: rgb(139, 68, 68);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:white;
+    margin: 20px;
+}
+button:hover{
+    background-color: rgb(188, 101, 101);
+    cursor:pointer;
+}
